@@ -1,0 +1,31 @@
+<script type="text/javascript">
+
+    var Physics = parseInt(prompt("Enter marks of Physics ="));
+    var Chemistry = parseInt(prompt("Enter marks of Chemistry ="));
+    var Biology = parseInt(prompt("Enter marks of Biology ="));
+    var Mathematics = parseInt(prompt("Enter marks of Mathematics  ="));
+    var Computer = parseInt(prompt("Enter marks of Computer ="));
+
+    sum = Physics + Chemistry + Biology + Mathematics + Computer;
+    avg = sum / 5;
+
+    if (avg >= 100 && avg <= 91) {
+        document.write("<h1>A</h1>");
+    }
+    else if (avg >= 90 && avg <= 81) {
+        document.write("<h1>B</h1>");
+    }
+    else if (avg >= 71 && avg <= 80) {
+        document.write("<h1>C</h1>");
+    }
+    else if (avg >= 60 && avg <= 71) {
+        document.write("<h1>D</h1>");
+    }
+    else if (avg >= 90 && avg <= 80) {
+        document.write("<h1>E</h1>");
+    }
+    else {
+        document.write("<h1>F</h1>");
+    }
+
+</script>
